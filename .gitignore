@@ -1,0 +1,64 @@
+# -----------------------
+# Python basics
+# -----------------------
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# -----------------------
+# Virtual environments
+# -----------------------
+.venv/
+
+# -----------------------
+# Packaging / build
+# -----------------------
+dist/
+build/
+*.egg-info/
+pip-wheel-metadata/
+
+# -----------------------
+# IDE / editors
+# -----------------------
+.vscode/
+.idea/
+
+# -----------------------
+# OS junk
+# -----------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+._*
+.Spotlight-V100/
+.Trashes/
+
+# -----------------------
+# Secrets / env files
+# -----------------------
+.env
+.env.*
+!.env.example
+
+# -----------------------
+# Logs
+# -----------------------
+logs/
+*.log
+
+# -----------------------
+# Data & outputs (project-specific)
+# -----------------------
+# ignore export CSVs produced by runs
+Opisto*.csv
+
+# only demo sample in data/
+data/*
+!data/sample_source.csv
